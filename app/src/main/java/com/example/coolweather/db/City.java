@@ -55,10 +55,4 @@ public class City extends DataSupport {
                 '}';
     }
 
-    public City(int id, String cityName, int cityCode, int provinceId) {
-        this.id = id;
-        this.cityName = cityName;
-        this.cityCode = cityCode;
-        this.provinceId = provinceId;
-    }
 }

@@ -10,7 +10,7 @@ public class Conuty extends DataSupport {
 
     private int id;
     private String countyName;
-    private String wewather;
+    private String weatherId;
     private int cityId;
 
     public int getId() {
@@ -21,14 +21,6 @@ public class Conuty extends DataSupport {
         this.id = id;
     }
 
-    public int getCityId() {
-        return cityId;
-    }
-
-    public void setCityId(int cityId) {
-        this.cityId = cityId;
-    }
-
     public String getCountyName() {
         return countyName;
     }
@@ -37,28 +29,19 @@ public class Conuty extends DataSupport {
         this.countyName = countyName;
     }
 
-    public String getWewather() {
-        return wewather;
+    public String getWeatherId() {
+        return weatherId;
     }
 
-    public void setWewather(String wewather) {
-        this.wewather = wewather;
+    public void setWeatherId(String weatherId) {
+        this.weatherId = weatherId;
     }
 
-    @Override
-    public String toString() {
-        return "Conuty{" +
-                "id=" + id +
-                ", countyName='" + countyName + '\'' +
-                ", wewather='" + wewather + '\'' +
-                ", cityId=" + cityId +
-                '}';
+    public int getCityId() {
+        return cityId;
     }
 
-    public Conuty(int id, String countyName, String wewather, int cityId) {
-        this.id = id;
-        this.countyName = countyName;
-        this.wewather = wewather;
+    public void setCityId(int cityId) {
         this.cityId = cityId;
     }
 }

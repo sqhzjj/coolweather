@@ -45,9 +45,5 @@ public class Province extends DataSupport {
                 '}';
     }
 
-    public Province(int id, String provinceName, int provinceCode) {
-        this.id = id;
-        this.provinceName = provinceName;
-        this.provinceCode = provinceCode;
-    }
+
 }
